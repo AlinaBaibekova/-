@@ -1,0 +1,27 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .clock {width: 30vw; height: 30vw; border: 2vw groove orange; position: relative; margin: 20px auto; border-radius: 50%;}
+        .arrow1 {width: 45%; height: 2vw; background-color: orange; position: absolute; top: calc(50% - 1vw); left: calc(50% - 1vw);}
+        .arrow2 {width: 30%; height: 2vw; background-color: orange; position: absolute; top: calc(50% - 1vw); left: calc(50% - 1vw);}
+        .dot {width: 4vw; height: 4vw; background-color: orange; position: absolute; top: calc(50% - 2vw); left: calc(50% - 2vw); border-radius: 50%;}
+        
+    </style>
+</head>
+<body style="background-image: url(Vremena2.jpg); margin-left: 170px;">
+    <main>
+<div class="clock">
+    <div class="arrow1"></div>
+    <div class="arrow2"></div>
+    <div class="dot"></div>
+</div>
+    </main>
+</body>
+</html>
+
+

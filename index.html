@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{font-size: 50px;
+            color:white;
+        text dekaration:hone;
+    position:absolute}
+        a:nth-child(1){
+            left: 35%;
+            top: 20%;
+        }
+        
+        a:nth-child(3){
+            left: 40%;
+            top: 90%;
+        }
+        a:nth-child(4){
+            left: 5%;
+            top: 80%;
+        }
+        .clock {width: 15vw; height: 15vw; border: 2vw groove rgb(19, 15, 7); position: relative; margin: 20px auto; border-radius: 50%;}
+        .arrow1 {width: 45%; height: 2vw; background-color: rgb(26, 18, 7); position: absolute; top: calc(50% - 1vw); left: calc(50% - 1vw); animation: go 3600s linear infinite; transform-origin:left;}
+        .arrow2 {width: 30%; height: 2vw; background-color: rgb(31, 23, 10); position: absolute; top: calc(50% - 1vw); left: calc(50% - 1vw); animation: go 60s linear infinite;transform-origin:left}
+        .dot {width: 4vw; height: 4vw; background-color: rgb(12, 9, 4); position: absolute; top: calc(50% - 2vw); left: calc(50% - 2vw); border-radius: 50%;}
+        
+        @keyframes go {from{transform: rotate(0);} to{transform: rotate(360deg);}}
+    </style>
+</head>
+<body style="background-image: url(orig.webp); margin-left: 170px;">
+    <main>
+
+<div class="clock">
+    <div class="arrow1"></div>
+    <div class="arrow2"></div>
+    <div class="dot"></div>
+</div>
+<nav>
+    <a href="лето.html"> Лето</a>
+    <a href="весна2.html"> Весна</a>
+    <a href="зима.html"> Зима</a>
+    <a href="осень.html"> Осень</a>
+
+</nav>
+    </main>
+</body>
+</html>
